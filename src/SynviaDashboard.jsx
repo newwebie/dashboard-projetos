@@ -772,7 +772,7 @@ function paginationRange(current, total) {
 // ═══════════════════════════════════════════
 
 const ProtocolosPage = () => {
-  const [anoTep, setAnoTep] = useState("2025");
+  const [anoTep, setAnoTep] = useState("2026");
   const [fStatusProt, setFStatusProt] = useState("Todos");
   const [fEtapa, setFEtapa] = useState("Todos");
   const [fPatrocinador, setFPatrocinador] = useState("Todos");
@@ -991,7 +991,7 @@ const AnalisesPage = () => {
 };
 
 const DocTecnicaPage = () => {
-  const [anoDT, setAnoDT] = useState("2025");
+  const [anoDT, setAnoDT] = useState("2026");
   const [fMonitoria, setFMonitoria] = useState("Todos");
   const [fPat, setFPat] = useState("Todos");
   const [fKeyAccount, setFKeyAccount] = useState("Todos");
@@ -1102,7 +1102,7 @@ const DocTecnicaPage = () => {
 };
 
 const GarantiaQualidadePage = () => {
-  const [anoGQ, setAnoGQ] = useState("2025");
+  const [anoGQ, setAnoGQ] = useState("2026");
   const [fMonitoria, setFMonitoria] = useState("Todos");
   const [fPat, setFPat] = useState("Todos");
   const [fKeyAccount, setFKeyAccount] = useState("Todos");
@@ -1246,7 +1246,7 @@ const MonitoriaCheckbox = ({ label, checked, onChange }) => (
 );
 
 const SinebPage = () => {
-  const [anoSineb, setAnoSineb] = useState("2025");
+  const [anoSineb, setAnoSineb] = useState("2026");
   const [fPat, setFPat] = useState("Todos");
   const [fKeyAccount, setFKeyAccount] = useState("Todos");
 
@@ -1736,7 +1736,7 @@ const ProximasEntradasPage = () => {
 };
 
 const FarolPage = () => {
-  const [anoTep, setAnoTep] = useState("2025");
+  const [anoTep, setAnoTep] = useState("2026");
   const [mesTep, setMesTep] = useState("Todos");
   const [fKeyAccount, setFKeyAccount] = useState("Todos");
   const [fPatrocinador, setFPatrocinador] = useState("Todos");
