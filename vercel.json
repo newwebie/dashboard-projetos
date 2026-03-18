@@ -1,10 +1,4 @@
 {
   "buildCommand": "node scripts/sync-sharepoint.js && npx vite build",
-  "outputDirectory": "dist",
-  "crons": [
-    {
-      "path": "/api/cron/sync",
-      "schedule": "0 * * * *"
-    }
-  ]
+  "outputDirectory": "dist"
 }
